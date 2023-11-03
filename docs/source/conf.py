@@ -1,10 +1,11 @@
 # Configuration file for the Sphinx documentation builder.
+import sphinx_rtd_theme
 
 # -- Project information
 
-project = 'Lumache'
+project = 'Reading Share'
 copyright = '2021, Graziella'
-author = 'Graziella'
+author = 'Li Kejie'
 
 release = '0.1'
 version = '0.1.0'
@@ -20,6 +21,7 @@ extensions = [
 ]
 
 intersphinx_mapping = {
+    "rtd": ("https://docs.readthedocs.io/en/stable/", None),
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
@@ -30,6 +32,12 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# List of patterns, relative to source directory, that match files and
+# directories to ignore when looking for source files.
+# This pattern also affects html_static_path and html_extra_path.
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
