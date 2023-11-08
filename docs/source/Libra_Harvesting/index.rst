@@ -1,7 +1,3 @@
-.. role:: raw-latex(raw)
-   :format: latex
-..
-
 Libra_Harvesting介绍
 ====================
 .. toctree::

@@ -55,15 +55,3 @@ source_parsers = {
     '.md': CommonMarkParser,
 }
 source_suffix = ['.rst', '.md']
-
-
-# 使用XeLaTeX作为LaTeX引擎
-latex_engine = 'xelatex'
-
-# 配置XeLaTeX和使用的字体
-latex_elements = {
-    'preamble': r'''
-\usepackage{fontspec}
-\setmainfont{SimSun}
-''',
-}

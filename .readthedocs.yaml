@@ -19,5 +19,3 @@ sphinx:
 formats:
   - pdf
   - epub
-
-latex_engine: xelatex
