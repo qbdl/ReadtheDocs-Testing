@@ -1,6 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 import sphinx_rtd_theme
-import maisie_sphinx_theme
+# import maisie_sphinx_theme
 # extensions.append("maisie_sphinx_theme")
 
 # -- Project information

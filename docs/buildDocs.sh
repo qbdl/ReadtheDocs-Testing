@@ -35,6 +35,8 @@ make -C docs html
 # Update GitHub Pages #
 #######################
 
+git config --global --add safe.directory /__w/ReadtheDocs-Testing/ReadtheDocs-Testing
+
 git config --global user.name "${GITHUB_ACTOR}"
 git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 
