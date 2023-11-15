@@ -1,6 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 import sphinx_rtd_theme
-# import maisie_sphinx_theme
+import maisie_sphinx_theme
 # extensions.append("maisie_sphinx_theme")
 
 # -- Project information
@@ -35,9 +35,9 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_material'
-# html_theme = 'sphinx_rtd_theme'
-# html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+# html_theme = 'sphinx_material'
+html_theme = 'sphinx_rtd_theme'
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # html_theme = 'maisie_sphinx_theme'
 # html_theme_path = maisie_sphinx_theme.html_theme_path()
 
