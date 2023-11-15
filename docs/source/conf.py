@@ -49,7 +49,6 @@ epub_show_urls = 'footnote'
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
-
 from recommonmark.parser import CommonMarkParser
 source_parsers = {
     '.md': CommonMarkParser,
