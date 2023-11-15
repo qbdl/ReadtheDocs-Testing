@@ -49,4 +49,3 @@ git push deploy gh-pages --force
 popd # return to main repo sandbox root
 # exit cleanly
 exit 0
-chmod +x buildDocs.sh
