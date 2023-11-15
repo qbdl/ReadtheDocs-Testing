@@ -27,8 +27,8 @@ make -C docs html
 #######################
 # Update GitHub Pages #
 #######################
-git config --global qbdl "${GITHUB_ACTOR}"
-git config --global 1260017352@qq.com "${GITHUB_ACTOR}@users.noreply.github.com"
+git config --global user.name "${GITHUB_ACTOR}"
+git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 docroot=`mktemp -d`
 rsync -av "docs/_build/html/" "${docroot}/"
 pushd "${docroot}"
